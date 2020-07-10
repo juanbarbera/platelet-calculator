@@ -1,0 +1,228 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.intro {
+	background: rgb(72, 82, 168);
+
+	border-bottom: 5px solid white;
+}
+
+.logoName {
+	padding: 25px 0;
+}
+
+.logoName h1 {  
+	line-height: 200px;
+	margin-left: 50px;
+	font-size: 22px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+
+h5 {
+	position: absolute;
+	font-size: 2vw !important;
+	left: 70%;
+	top: 200px;
+	z-index: 1;
+	font-family: 'Lato', sans-serif;
+	color: white !important;
+}
+
+.logoName img {
+	width: 100px;
+	height: 100px;
+	border: 2px solid white;
+	margin-top: 50px;
+}
+
+.rest {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	background: rgb(23,23,23);
+	padding-top: 20px;
+	padding-bottom: 50px;
+	height: 130vh;
+}
+
+label {
+	font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+	label {
+		font-size: 22px;
+	}
+	
+	.logoName img {
+		width: 200px;
+		height: 200px;
+		margin-top: 15px;
+	}
+	
+	.logoName h1 {
+		font-size: 28px;
+	}
+
+	h5 {
+		font-size: 23px !important;
+	}
+}
+
+
+
+.but {
+	padding-bottom: 40px;
+	
+}
+
+button {
+	margin: 0 25px !important;
+	background: black;
+	color: white;
+	border: none;
+	padding: 15px;
+	border: 1px solid white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+
+}
+
+.active {
+	border: 2px solid white;
+	font-weight: 700;
+}
+
+#b1:hover {
+	background: gray;
+}
+
+#b2:hover {
+	background: gray;
+}
+
+#sobre:hover {
+	background: gray;
+}
+
+#b1:focus {
+	outline: none;
+}
+
+#b2:focus {
+	outline: none;
+}
+
+#sobre:focus {
+	outline: none;
+}
+
+.table {
+	justify-content: center;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 800px;
+	
+}
+
+.table2 {
+	margin: 15px auto;
+	width: 90%;
+	max-width: 800px;
+
+}
+
+@media (max-width: 1000px) {
+	.table, .table2, .results {
+		margin-top: 100px;
+	}
+	.rest {
+		height: 150vh;
+	}
+	label {
+		font-size: 26px;
+	}
+	.text {
+		padding-right: 10vw !important;
+		padding-left: 10vw !important;
+		font-size: 26px;
+	}
+}
+
+.results {
+	text-align: center;
+	padding-top: 25px;
+}
+
+.results h1 {
+	font-size: 30px;
+	color: rgb(83, 110, 153);
+}
+
+.results h2 {
+	font-size: 26px;
+}
+
+
+footer {
+	background: rgb(23,23,23);
+	font-family: 'Lato', sans-serif;
+	color: grey;
+	text-align: center;
+	padding-right: 30px;
+}
+
+
+footer h1 {
+	font-size: 18px;
+	margin: 0;
+	padding-bottom: 15px;
+}
+
+
+/*parte de rendimento*/
+
+#primeiro p {
+	position: relative;
+	top: 15px;
+	font-size: 13px;
+}
+
+#segundo p {
+	position: relative;
+	top: 15px;
+	font-size: 13px;
+}
+
+@keyframes transitionIn {
+	from {
+		opacity: 0;
+		transform: rotateY(-20deg);
+	}
+
+	to {
+		opacity: 1;
+		transform: rotateY(0);
+	}
+}
+
+.containe {
+	animation: transitionIn 0.95s;
+}
+
+.text {
+	margin-top: 35px;
+	padding-left: 20vw;
+	padding-right: 20vw;
+	font-family: 'Lato', sans-serif;
+
+}
+
+#standardResult, #afereseResult, #rendimentoResult, #cciResult {
+	font-size: 26px;
+}

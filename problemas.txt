@@ -1,0 +1,4 @@
+problemas:
+
+1 - arredondamento do CCI? deixei igual do app. mas não está arredondando
+2 - resultados mudam de posição

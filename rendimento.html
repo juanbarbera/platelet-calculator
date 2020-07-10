@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plaquetometro</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+</head>
+<body>
+
+<div class="intro">
+	<div class="logoName d-flex justify-content-center">
+		<img src="./img/art.png">
+		<h1>Calculadora de Plaquetas</h1>
+	</div>
+	<h5><i class="fa fa-calculator"></i> Fórmula de Albiero</h5>
+</div>
+
+
+
+
+<section class="rest">
+
+	<div class="but d-flex justify-content-center">
+		<a href="./index.html"><button id="b1">Volume</button></a>
+		<button id="b2" class="active">Rendimento</button><a href="./sobre.html"><button id="sobre">Sobre a calculadora</button></a>
+	</div>
+
+	<div class="containe">
+		
+	<div class="forms">	
+		<table class="table">
+	  	<tbody>
+		    <tr id="primeiro">
+		      <td><label>Plaquetometria<p>Pré-tranfusional</p></label></td>
+		      <td><input id="plaquePre" type="text" /></td>
+		      <td><label>000/mm3</label></td>
+		      
+		    </tr>
+		    <tr id="segundo">
+		      <td><label>Plaquetometria<p>Pós-tranfusional</p></label></td>
+		      <td><input id="plaquePos" type="text" /></td>
+		      <td><label>000/mm3</label></td>
+		    </tr>
+		    <tr>
+		      <td><label>Peso</label></td>
+		      <td><input id="weight" type="text" /></td>
+		      <td><label id="kilogram">kg</label></td>
+		    </tr>
+
+		    <tr>
+		      <td><label>Altura</label></td>
+		      <td><input id="height" type="text" /></td>
+		      <td><label>cm</label></td>
+		    </tr>
+		    
+		    <tr>
+		      <td><label>Volume</label></td>
+		      <td><input id="volume" type="text" /></td>
+		      <td><label>ml</label></td>
+		    </tr>
+	  	</tbody>
+		</table>
+
+		<table class="table2">
+	  	<tbody>
+		    <tr>
+		      	<td>
+			      	<input type="radio" name="personTypeRend" id="homem" value="homem">
+					<label class="block" for="homem">Homem</label>
+				</td>
+		      <td>
+		      		<input type="radio" name="transfusionTypeRend" id="standard" value="standard">
+					<label class="block" for="standard">Standard</label>
+		      </td>
+		    </tr>
+		    <tr>
+		     	<td>
+		      		<input type="radio" name="personTypeRend" id="mulher" value="mulher">
+					<label class="block" for="mulher">Mulher ou Criança</label>
+				</td>
+		      	<td>
+		      		<input type="radio" name="transfusionTypeRend" id="aferese" value="aferese">
+					<label class="block" for="aferese">Aférese</label>
+		      	</td>
+		    </tr>
+		    <tr>
+		      	<td>
+		      		<input type="radio" name="personTypeRend" id="recem" value="recem">
+					<label class="block" for="recem">Recém-nascido</label>
+				</td>
+		    </tr>
+		    <tr>
+		      	<td>
+		      		<input type="radio" name="personTypeRend" id="prema" value="prema">
+					<label class="block" for="prema">Prematuro</label>
+				</td>
+		    </tr>
+	  	</tbody>
+		</table>
+		<div class="results">
+			<div><h1>Percentual de Rendimento</h1></div>
+			<div id="rendimentoResult"><h2>Faltam Dados</h2></div>
+			<div><h1>CCI</h1></div>
+			<div id="cciResult"><h2>Faltam Dados</h2></div>
+		</div>
+
+	</div>
+	</div>
+
+	</section>
+
+
+
+
+	<footer>
+		<h1>desenvolvido por: Juan Filho</h1>
+	</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"crossorigin="anonymous"></script>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

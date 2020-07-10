@@ -1,0 +1,95 @@
+
+------------------------------------------------------------------------------------------
+            (volume)
+------------------------------------------------------------------------------------------
+
+Quantidade de plaquetas desejadas: - [qtPlaquetasDesejadas]
+-terapêutica: 100000;
+-profilática: 50000;
+
+plaquetometriaInt = 0;
+plaquetometriaInt = XXXX * 1000;
+
+qtDiferencaPlaquetas = qtPlaquetasDesejadas - plaquetometriaInt
+
+
+Volemia = 0
+[volemiaPorKg]
+volemia homem, 75
+volemia mulher, 65
+volemia RN, 90
+volemia Prematuro, 110
+
+
+???pesoDouble = 0
+peso (recém-nascido/prematuro) /= 1000 // converted de G para KG
+
+
+volemia = pesoDouble * volemiaPorKg
+
+
+rendimento = (xxx) / 100;
+kStandard = 1000000000(9 zeros) * rendimento;
+kAferese = 1500000000 (8 zeros) * rendimento;
+
+
+temp = qtDiferencaPlaquetas * volemia * 1000;
+finalStandard = temp / kStandard
+finalAferese = temp / kAferese
+
+
+
+------------------------------------------------------------------------------------------
+            (Rendimento)
+------------------------------------------------------------------------------------------
+
+qtDiferencaPlaVol = 0;
+qtDiferencaPlaVol = (plaquetometriaPos - plaquetometriaPre) * 1000
+
+
+
+volemiaVol = 0;
+weightVol = 0;
+
+
+
+[volemiaPorKgVol]
+volemia homem, 75
+volemia mulher, 65
+volemia RN, 90
+volemia Prematuro, 110
+
+
+volemiaVol = weightVol * volemiaPorKgVol;
+
+
+
+volume = 0;
+tipo de transfusão: 
+Standard - 1000000000 
+Aférese - 1500000000
+
+weightVol = (XXX)
+
+
+
+volume = (XXX)
+volume = (XXX) * Standard (ou) Aférese
+
+rendimento = (qtDiferencaPlaVol * volemia * 1000) / volume
+text( rendimento * 100)
+
+
+superficie = 0;
+height = (XXX)
+superficie = 0,007184 * Math.pow(height, 0,725) * Math.pow(weightVol, 0,425);
+
+var CCI = (qtDiferencaPlaVol * superficie) / (volume / 100000000000)
+
+
+
+
+
+
+
+
