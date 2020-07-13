@@ -162,16 +162,16 @@ function calculateAndShow() {
 	var finalStandard = temp / kStandard;
 	var finalAferese = temp / kAferese;
 
-	if(Number.isNaN(finalStandard)){
-		$("#standardResult").text("Faltam Dados");
-	} else {
+	if(Number.isFinite(finalStandard)){
 		showStandard(finalStandard);
+	} else {
+		$("#standardResult").text("Faltam Dados");
 	}
 	
-	if(Number.isNaN(finalAferese)){
-		$("#standardResult").text("Faltam Dados");
-	} else {
+	if(Number.isFinite(finalAferese)){
 		showAferese(finalAferese);
+	} else {
+		$("#standardResult").text("Faltam Dados");
 	}
 	
 }

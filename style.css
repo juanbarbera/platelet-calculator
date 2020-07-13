@@ -100,12 +100,13 @@ button {
 	border: 1px solid rgb(23,23,23);
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-
+	transition: all 0.35s;
 }
 
 .active {
 	border: 3px solid rgb(23,23,23);
 	font-weight: 700;
+	background: rgb(23,23,23);
 }
 
 #b1:hover {
