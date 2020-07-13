@@ -22,6 +22,7 @@ html, body {
 	font-weight: 700;
 	color: white;
 	text-transform: uppercase;
+	letter-spacing: 4.5px;
 }
 
 h5 {
@@ -43,15 +44,24 @@ h5 {
 
 .rest {
 	font-family: 'Lato', sans-serif;
-	color: white;
-	background: rgb(23,23,23);
+	color: rgb(23,23,23);
+	background: rgb(225, 228, 250);
 	padding-top: 20px;
 	padding-bottom: 50px;
-	height: 130vh;
+	height: 120vh;
 }
 
 label {
 	font-size: 20px;
+}
+
+#info {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	color: rgb(23,23,23);
+	font-weight: 700;
 }
 
 @media (min-width: 1200px) {
@@ -83,31 +93,31 @@ label {
 
 button {
 	margin: 0 25px !important;
-	background: black;
+	background: rgb(0, 30, 255);
 	color: white;
 	border: none;
 	padding: 15px;
-	border: 1px solid white;
+	border: 1px solid rgb(23,23,23);
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 
 }
 
 .active {
-	border: 2px solid white;
+	border: 3px solid rgb(23,23,23);
 	font-weight: 700;
 }
 
 #b1:hover {
-	background: gray;
+	background: rgb(23,23,23);
 }
 
 #b2:hover {
-	background: gray;
+	background: rgb(23,23,23);
 }
 
 #sobre:hover {
-	background: gray;
+	background: rgb(23,23,23);
 }
 
 #b1:focus {
@@ -131,7 +141,7 @@ button {
 }
 
 .table2 {
-	margin: 15px auto;
+	margin: 0 auto;
 	width: 90%;
 	max-width: 800px;
 
@@ -139,10 +149,10 @@ button {
 
 @media (max-width: 1000px) {
 	.table, .table2, .results {
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 	.rest {
-		height: 150vh;
+		height: 130vh;
 	}
 	label {
 		font-size: 26px;
@@ -170,7 +180,7 @@ button {
 
 
 footer {
-	background: rgb(23,23,23);
+	background: rgb(225, 228, 250);
 	font-family: 'Lato', sans-serif;
 	color: grey;
 	text-align: center;
