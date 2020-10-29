@@ -172,13 +172,14 @@ button {
 		font-size: 30px;
 	}
 	#sobre {
-		font-size: 27px;
+		font-size: 28px;
 	}
 	#info {
 		font-size: 28px;
 	}
-	#subplaq {
-		font-size: 22px;
+	.text {
+		padding-left: 7vw;
+		padding-right: 7vw;
 	}
 	.results {
 		font-size: 30px;
