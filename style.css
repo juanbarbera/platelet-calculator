@@ -156,11 +156,29 @@ button {
 	.table, .table2, .results {
 		margin-top: 50px;
 	}
+	.table, .table2 {
+		font-size: 28px;
+	}
 	.rest {
 		height: 20px;
 	}
+	.but {
+		align-items: center;
+	}
 	label {
 		font-size: 28px;
+	}
+	#b1, #b2 {
+		font-size: 30px;
+	}
+	#sobre {
+		font-size: 27px;
+	}
+	#info {
+		font-size: 28px;
+	}
+	.results {
+		font-size: 30px;
 	}
 	.text {
 		/*padding-right: 10vw !important;
