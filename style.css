@@ -51,6 +51,10 @@ h5 {
 	height: auto;
 }
 
+.rest footer {
+	height: 0px !important;
+} 
+
 label {
 	font-size: 20px;
 }
@@ -138,14 +142,14 @@ button {
 	margin: 0 auto;
 	width: 90%;
 	max-width: 800px;
-	
+	/*border-collapse: collapse;*/
 }
 
 .table2 {
 	margin: 0 auto;
 	width: 90%;
 	max-width: 800px;
-
+	/*border-collapse: collapse;*/
 }
 
 @media (max-width: 1000px) {
@@ -153,15 +157,15 @@ button {
 		margin-top: 50px;
 	}
 	.rest {
-		height: auto;
+		height: 20px;
 	}
 	label {
-		font-size: 26px;
+		font-size: 20px;
 	}
 	.text {
-		padding-right: 10vw !important;
-		padding-left: 10vw !important;
-		font-size: 26px;
+		/*padding-right: 10vw !important;
+		padding-left: 10vw !important;*/
+		font-size: 20px;
 	}
 }
 
@@ -186,6 +190,7 @@ footer {
 	font-family: 'Lato', sans-serif;
 	color: grey;
 	text-align: center;
+	padding-top: 30px;
 	padding-right: 30px;
 	margin-top: 15px;
 	position: bottom;
